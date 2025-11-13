@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Pourquoi choisir Interferm ? — Avantages & détails</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#e6ecfb;
+    --primary:#4c78ee;
+    --accent:#0038ce;
+    --danger:#f24559;
+    --card:#ffffff;
+    --muted:#344152;
+    --radius:16px;
+    --maxw:1100px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Inter,system-ui,Arial,Helvetica,sans-serif;
+    background:linear-gradient(180deg,var(--bg),#f7f9ff);
+    color:var(--accent);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    padding:28px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .wrap{
+    width:100%;
+    max-width:var(--maxw);
+    background:var(--card);
+    border-radius:var(--radius);
+    box-shadow:0 18px 50px rgba(7,13,34,0.08);
+    overflow:hidden;
+  }
+
+  header{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    padding:20px 28px;
+    background:linear-gradient(90deg,var(--primary),#6b93ff);
+    color:white;
+  }
+  .logo { width:100px; height:100px; flex:0 0 100px; display:flex; align-items:center; justify-content:center; }
+  .logo img{ max-height:130px; display:block; }
+  .head-title { flex:1; }
+  .head-title h1{ margin:0; font-size:20px; letter-spacing:-0.3px; }
+  .head-title p{ margin:6px 0 0; opacity:0.95; }
+
+  .container{ padding:28px; display:grid; grid-template-columns: 1fr 420px; gap:28px; align-items:start; }
+  @media(max-width:980px){ .container{ grid-template-columns:1fr; } }
+	<link href="https://interferm.github.io/Logo-blanc-corporate/"> 
+  /* left column */
+  .left { padding-right:6px; }
+
+  .intro {
+    background:linear-gradient(180deg,#ffffff, #fbfdff);
+    border-radius:12px;
+    padding:18px;
+    box-shadow: 0 6px 20px rgba(4,16,64,0.05);
+    color:var(--muted);
+    line-height:1.5;
+    margin-bottom:18px;
+  }
+
+  .cta-row{ display:flex; gap:12px; flex-wrap:wrap; margin:14px 0 6px; }
+  .btn {
+    background:var(--primary);
+    color:white;
+    border:0;
+    padding:10px 14px;
+    border-radius:12px;
+    cursor:pointer;
+    font-weight:600;
+    box-shadow:0 8px 20px rgba(76,120,238,0.14);
+    transition: transform .14s ease, background .12s;
+  }
+  .btn.secondary{ background:transparent; color:var(--primary); border:1px solid rgba(76,120,238,0.12); box-shadow:none; }
+  .btn:active{ transform:translateY(1px); }
+  .note{ color:var(--accent); font-weight:600; margin-top:6px; }
+
+  /* details sections */
+  .panel {
+    background:#fff;
+    border-radius:12px;
+    padding:18px;
+    box-shadow:0 6px 30px rgba(7,13,34,0.04);
+    margin-bottom:16px;
+    color:var(--muted);
+  }
+  .panel h3{ margin:0 0 8px; color:var(--accent); }
+  .panel p{ margin:0 0 12px; line-height:1.6; font-size:15px; }
+
+  .badge { display:inline-block; padding:6px 10px; border-radius:999px; background:rgba(76,120,238,0.08); color:var(--primary); font-weight:700; margin-right:8px; font-size:13px; }
+
+  /* right column - quick facts & colors */
+  .right { position:relative; }
+  .facts {
+    background: linear-gradient(180deg,#ffffff,#fbfdff);
+    border-radius:12px;
+    padding:16px;
+    box-shadow:0 6px 24px rgba(7,13,34,0.04);
+    margin-bottom:16px;
+    color:var(--muted);
+  }
+  .facts h4{ margin:0 0 8px; color:var(--accent); }
+  .facts ul{ margin:8px 0 0; padding-left:18px; text-align:left; color:#3b4a59; }
+  .facts li{ margin:8px 0; font-size:14px; line-height:1.4; }
+
+  .colors {
+    background:#fff;
+    border-radius:12px;
+    padding:12px;
+    box-shadow:0 6px 20px rgba(7,13,34,0.03);
+    color:var(--muted);
+  }
+  .colors h4{ color:var(--accent); margin:0 0 10px; }
+  .swatches { display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-start; }
+  .sw { width:120px; height:40px; border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-weight:700; box-shadow: inset 0 -1px 0 rgba(0,0,0,0.06); font-size:13px; }
+
+  /* color label style for light swatches */
+  .sw.light { color:var(--accent); font-weight:600; box-shadow: 0 1px 0 rgba(0,0,0,0.04); border:1px solid rgba(0,0,0,0.03); }
+
+  footer { padding:18px 28px; background:linear-gradient(90deg,var(--primary),#6b93ff); color:white; text-align:center; font-size:14px; }
+
+  /* small utilities */
+  .muted{ color:#5c6b7a; }
+  .accent { color:var(--primary); font-weight:700; }
+  .callout { border-left:4px solid var(--primary); padding-left:12px; margin:10px 0; background:rgba(76,120,238,0.03); border-radius:8px; }
+  .red { color:var(--danger); font-weight:700; }
+
+</style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div class="logo">
+        <img src="logo-interferm-corporate-negatif.png">
+      </div>
+      <div class="head-title">
+        <h1>Interferm — Pourquoi nous choisir</h1>
+        <p>Écologie, performance, design & savoir-faire — tous les avantages détaillés.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- LEFT -->
+      <div class="left">
+        <div class="intro">
+          <div class="badge">Made in Germany</div>
+          <strong>Interferm</strong> allie la <strong>conception française</strong> et une <strong>fabrication allemande</strong> de pointe pour proposer des menuiseries hautement performantes, durables et esthétiques. Ci-dessous : tous les atouts détaillés, pratiques et concrets pour vos projets.
+        </div>
+
+        <div class="cta-row">
+          <button class="btn" onclick="openPanel('eco')">🌱 Écologie & économies d'énergie</button>
+          <button class="btn" onclick="openPanel('quality')">🏭 Qualité & fabrication</button>
+          <button class="btn" onclick="openPanel('design')">✨ Design & élégance</button>
+          <button class="btn" onclick="openPanel('colors')">🎨 Nuanciers & couleurs</button>
+          <button class="btn" onclick="openPanel('advantages')">🧠 Savoir-faire & garanties</button>
+          <button class="btn" style="background:#4c78ee;color:white;" onclick="openPanel('cost')">💶 Prix & ROI</button>
+        </div>
+
+        <!-- ECOLOGY -->
+        <div id="eco" class="panel" style="display:none;">
+          <h3>🌱 Écologie & réduction d’empreinte carbone</h3>
+          <p>
+            Interferm met en œuvre des actions concrètes pour la planète — pas seulement des promesses :
+          </p>
+          <p><strong>Palettes consignées & logistique responsable</strong> — nos flux logistiques privilégient le réemploi des supports (palettes métalliques consignées) pour limiter les emballages jetables et réduire le transport inutile.</p>
+          <p><strong>Carburants & flotte verte</strong> — nous favorisons l’utilisation d’éco-carburants et de transport optimisé (groupage, tournées planifiées) afin de diminuer les émissions CO₂ en amont.</p>
+          <p><strong>Locaux passifs & usines efficaces</strong> — nos sites et partenaires industriels intègrent des standards très performants (bâtiments passifs ou à haute performance énergétique) :  
+            l’impact direct ? Des menuiseries qui contribuent à réduire les besoins en chauffage et climatisation de la maison, et donc une <strong>empreinte carbone plus faible</strong> et des économies durables pour l’utilisateur.</p>
+          <div class="callout">
+            <div class="muted">Concrètement :</div>
+            <ul class="muted">
+              <li>Fenêtres certifiées pour logements passifs → réduisent les consommations énergétiques (parfois jusqu’à l’absence de chauffage en hiver pour des constructions optimisées).</li>
+              <li>Profilés 100% recyclables et processus de production intégré qui autorise le recyclage et la réintégration en production.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- QUALITY -->
+        <div id="quality" class="panel" style="display:none;">
+          <h3>🏭 Qualité industrielle & fabrication allemande</h3>
+          <p>
+            Interferm a fait le choix stratégique d’un partenariat industriel outre-Rhin : une usine allemande hautement automatisée, alliée à un contrôle qualité strict. Cette organisation permet :
+          </p>
+          <ul>
+            <li><strong>Châssis plus épais</strong> (+10–18% de matière vs standard) pour une meilleure rigidité, isolation et résistance à l’effraction.</li>
+            <li><strong>Centres d’usinage automatisés</strong> et contrôles dimensionnels pour des ouvrants XXL (jusqu’à 6,5 m pour certaines baies).</li>
+            <li><strong>Étapes manuelles précises</strong> (ponçage, scellement, finition) réalisées par des techniciens expérimentés — l’alliance du high-tech et du geste artisanal.</li>
+            <li><strong>Processus de R&D</strong> dédié : développement d'inserts isolants, triple vitrages haute performance, intercalaire premium Swisspacer (limite les ponts thermiques).</li>
+          </ul>
+          <p class="muted">Résultat : des menuiseries robustes, garanties (profilé PVC 10 ans, vitrages 10 ans), et des performances mesurables en Uw/U-values et isolation phonique.</p>
+        </div>
+
+        <!-- DESIGN -->
+        <div id="design" class="panel" style="display:none;">
+          <h3>✨ Design, finitions & choix esthétiques</h3>
+          <p>
+            Le design Interferm joue sur la finesse des lignes, la qualité perçue et les détails :
+          </p>
+          <ul>
+            <li><strong>Ferrage caché</strong> (invisible) de série sur certaines gammes pour une esthétique épurée.</li>
+            <li><strong>Soudures V-PERFECT</strong> pour un angle parfait et des joints invisibles.</li>
+            <li><strong>Options poignée / bâton maréchal / inox</strong> pour harmoniser l’intérieur et l’extérieur.</li>
+            <li>Finitions bois massif (tripli/quadri) pour un rendu naturel unique — lasures et huilages haute tenue (ionisation) qui réduisent l’entretien.</li>
+          </ul>
+          <p class="callout muted"><strong>Note pratique :</strong> grâce aux techniques de lasure et de laquage avancées, l’entretien des fermetures bois n’exige plus les ponçages/lasures annuels d’autrefois.</p>
+        </div>
+
+        <!-- COLORS -->
+        <div id="colors" class="panel" style="display:none;">
+          <h3>🎨 Nuancier & large choix de couleurs</h3>
+          <p>
+            Chez Interferm, la personnalisation est quasi illimitée : plus de <strong>70 couleurs</strong> sur certaines gammes et jusqu’à <strong>3800 combinaisons</strong> possibles (bicoloration, capotage aluminium, textures fines, effets bois, teintes Spectral).
+          </p>
+          <p class="muted"><strong>Exemples de teintes & décors proposés (sélection) :</strong></p>
+
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
+  <!-- palette visual (approximate colors) -->
+  <div class="sw" style="background:#8B5E3C;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Chêne doré</div>
+  <div class="sw" style="background:#6D4C41;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Noyer</div>
+  <div class="sw" style="background:#7B3F36;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Acajou</div>
+  <div class="sw" style="background:#C1A57B;display:flex;align-items:center;justify-content:center;color:black;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Chêne des marais</div>
+  <div class="sw" style="background:#5D3A1A;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Brun</div>
+  <div class="sw" style="background:#3B3B3B;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Winchester</div>
+  <div class="sw" style="background:#2F2F2F;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris anthracite veiné</div>
+  <div class="sw" style="background:#4A4A4A;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">DB703</div>
+  <div class="sw" style="background:#6B6B6B;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris quartz structure fine</div>
+  <div class="sw" style="background:#222222;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Noir structure fine</div>
+  <div class="sw" style="background:#5B5B5B;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris basalte structure fine</div>
+  <div class="sw" style="background:#9E9E9E;display:flex;align-items:center;justify-content:center;color:black;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris argent</div>
+  <div class="sw" style="background:#3E3B36;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris terre d'ombre</div>
+</div>
+
+
+          <p style="margin-top:12px;" class="muted">Techniques : plaxage (films décoratifs thermocollés), structures fines (effet aluminium), décors bois réalistes — tenue longue durée garantie.</p>
+        </div>
+
+        <!-- advantages / guarantees -->
+        <div id="advantages" class="panel" style="display:none;">
+          <h3>🧠 Savoir-faire, certifications & garanties</h3>
+          <p>
+            Interferm combine certifications techniques et services clients :
+          </p>
+          <ul>
+            <li><strong>Fenêtres certifiées pour la construction passive</strong> : gammes Passif+ et 510 avec triple vitrage et inserts isolants (performances Uw très basses).</li>
+            <li><strong>Traçabilité Interferm</strong> : carte d'identité du produit, certificats disponibles pour chaque commande.</li>
+            <li><strong>Garanties</strong> : profilé PVC 10 ans, vitrages 10 ans, quincaillerie / ferrage (selon gamme) et assurance décennale fabricant.</li>
+            <li><strong>Options sécurité</strong> : serrures RC2, vitrages feuilletés, ferrages renforcés.</li>
+          </ul>
+        </div>
+
+        <!-- cost / ROI -->
+        <div id="cost" class="panel">
+          <h3>💶 Prix, ROI & économies</h3>
+          <p>
+            Interferm propose un excellent <strong>rapport qualité/prix</strong> : la standardisation intelligente, les processus industriels optimisés et la production ciblée permettent de proposer des gammes accessibles sans sacrifier la performance.
+          </p>
+          <p>
+            <strong>Retour sur investissement :</strong> grâce aux gammes performantes (510 / Passif+), la diminution des besoins de chauffage et la longévité des produits font baisser le coût total d’usage sur 10–20 ans, rendant le remplacement rentable plus vite que prévu.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <aside class="right">
+        <div class="facts">
+          <h4>Faits & atouts rapides</h4>
+          <ul>
+            <li><strong>Production</strong> : usine partenaire en Allemagne + conception française (Ste-Croix-en-Plaine).</li>
+            <li><strong>Certifications</strong> : nombreuses certifications passives sur les gammes concernées.</li>
+            <li><strong>Recyclabilité</strong> : profilés PVC 100% recyclables, COV A+ pour l’intérieur.</li>
+            <li><strong>Personnalisation</strong> : bicolorations, capotage aluminium, 70+ couleurs, 3800 combinaisons.</li>
+            <li><strong>Garanties</strong> : profils et vitrages 10 ans, panneaux portes 5 ans, assurance décennale fabricant.</li>
+          </ul>
+        </div>
+
+        <div class="colors">
+          <h4>Palette (extraits)</h4>
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
+  <!-- palette visual (approximate colors) -->
+  <div class="sw" style="background:#8B5E3C;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Chêne doré</div>
+  <div class="sw" style="background:#6D4C41;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Noyer</div>
+  <div class="sw" style="background:#7B3F36;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Acajou</div>
+  <div class="sw" style="background:#C1A57B;display:flex;align-items:center;justify-content:center;color:black;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Chêne des marais</div>
+  <div class="sw" style="background:#5D3A1A;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Brun</div>
+  <div class="sw" style="background:#3B3B3B;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Winchester</div>
+  <div class="sw" style="background:#2F2F2F;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris anthracite veiné</div>
+  <div class="sw" style="background:#4A4A4A;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">DB703</div>
+  <div class="sw" style="background:#6B6B6B;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris quartz structure fine</div>
+  <div class="sw" style="background:#222222;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Noir structure fine</div>
+  <div class="sw" style="background:#5B5B5B;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris basalte structure fine</div>
+  <div class="sw" style="background:#9E9E9E;display:flex;align-items:center;justify-content:center;color:black;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris argent</div>
+  <div class="sw" style="background:#3E3B36;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;padding:10px;border-radius:6px;min-width:120px;min-height:60px;text-align:center;">Gris terre d'ombre</div>
+</div>
+
+          <p class="muted">Et beaucoup d'autres nuances : gris quartz, gris basalte, gris argent, terre d'ombre, structures fines, Spectral, et décors bois réalistes.</p>
+        </div>
+
+        <div class="facts" style="margin-top:12px;">
+          <h4>Service & personnalisation</h4>
+          <ul>
+            <li>Dimension sur-mesure, châssis jusqu'à 6,5 m pour coulissants</li>
+            <li>Options vitrage : double/triple, swisspacer, phonique, décoratif</li>
+            <li>Assistance pose & traçabilité après-vente</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div style="font-weight:700">Interferm — Conception française & Fabrication allemande</div>
+      <div style="margin-top:6px; font-size:13px; opacity:0.92">Pour plus d'informations ou un catalogue complet : contactez votre concessionnaire Interferm.</div>
+    </footer>
+  </div>
+
+<script>
+  // simple panel toggling
+  function openPanel(id){
+    // hide all panels
+    const panels = document.querySelectorAll('.panel');
+    panels.forEach(p=>p.style.display='none');
+    // show targeted
+    const el = document.getElementById(id);
+    if(el) el.style.display='block';
+    // scroll into view on small screens
+    el && el.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+  // show first panel by default
+  document.addEventListener('DOMContentLoaded', ()=> openPanel('eco'));
+</script>
+</body>
+</html>
